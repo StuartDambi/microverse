@@ -90,3 +90,55 @@ i {
   align-items: center;
   
 }
+
+
+/* Pricing CSS */
+.pricing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  max-width: 1000;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 8px;
+}
+
+.pricing .heading {
+  height: 60px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing .price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3px;
+}
+
+.pricing .price-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing .button-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing .price-feature h6 {
+  font-size: 22px;
+} 
+
+.card {
+  height: 320px;
+  width: 400px;
+  border: 3px solid black;
+}
